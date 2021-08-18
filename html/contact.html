@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+
+<body>
+    <!-- Creating menu based on table -->
+    <table border='0' width='100%'>
+        <!-- Insert line-->
+        <tr>
+            <!-- Insert column on table-->
+            <td align="center">
+                <a href="../html/index.html"><img src="../image/logo.png" width="200" height="50" alt=""> </a>
+            </td>
+            <td align="center">QUEM SOMOS</td>
+            <td align="center">PARA PESSOAS</td>
+            <td align="center">PARA EMPRESAS</td>
+            <td align="center">CONTATO</td>
+            <td align="center">CONTEÚDOS</td>
+        </tr>
+    </table>
+    
+    <!-- Creating form for our page -->
+    <form id="contatos" method="POST">
+        
+        <!-- Create box to store our contacts -->
+        <fieldset>
+            
+            <!-- insewrt legend in our form-->
+            <legend> Preencha os campos abaixo para fazer nossos cursos </legend>
+            
+            <!-- Creating fields for our form -->
+            <label>Nome Alun(a)o: </label>
+                <input type="text" name="nome_aluno"        required><br><br>
+            
+            <label>Email: </label>
+                <input type="email" name="email_aluno"      required><br><br>
+            
+            <label>Senha:</label>
+                <input type="password" name="senha_aluno"   required><br><br>
+
+            <!--Create input type fo-->
+            <label>Genero:</label><br><br>
+                <input type="radio" name="genero" value="Feminino" Feminino             required> Feminino <br>
+                <input type="radio" name="genero" value="Masculino" Masculino           required> Masculino <br>
+                <input type="radio" name="genero" value="Trans" Trans                   required> Trans <br>
+                <input type="radio" name="genero" value="Não Binario" Não binário       required> Não binario <br>
+                <input type="radio" name="genero" value="Não Informado" Não informado   required> Não Informado <br><br>
+
+                <!-- Creating option menu type dropdown-->
+                <label>
+                    Escolha o nome do curso que deseja participar: 
+                </label>
+
+                <select required>
+                    <option value=""        name="cursos">      </option>
+                    <option value="HTML"    name="cursos"> HTML </option>
+                    <option value="CSS"     name="cursos"> CSS  </option>
+                    <option value="JS"      name="cursos"> JS   </option>
+                </select> <br><br>
+
+                <!-- Creating a period choise -->
+                <label> Escolha o período desejado: </label>
+                    <input type="checkbox" value="Manhã" name="período"> Manhã
+                    <input type="checkbox" value="Tarde" name="período"> Tarde
+                    <input type="checkbox" value="Noite" name="período"> Noite<br><br>
+
+                <!-- Data field -->
+                <label>Escolha a data que deseja fazer o curso escolhido: </label>
+                    <input type="date" name="data_curso"><br><br>                
+
+                <!-- Creating note field-->
+                <label>Mensagem: </label> <br>
+                <textarea name="mensagem" id="" cols="50" rows="5" maxlength="150"> </textarea> <br>
+
+            <!--Creating buttom to send form data -->
+            <input type="submit" value="Enviar"></br><br>
+
+        </fieldset>
+
+    </form>
+
+
+
+
+    
+</body>
+</html>
