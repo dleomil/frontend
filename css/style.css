@@ -1,6 +1,6 @@
 /* Creating background color */
         body{
-            background-color: wheat;
+            background-color: rgb(220, 220, 220);
         }
         
         /* Creating library to customize native commands in HTML  */    
@@ -20,7 +20,7 @@
         .paragrafo_especial{
             font-size: 10px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: gray;
+            color: black;
         }
 
         .menu{
@@ -28,4 +28,25 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bolder;
             color: rgb(8, 8, 58);
+        }
+
+        /* Collor styles to BootStrap page */
+        .container{
+            border: 3px solid black;
+        }
+
+        .div1{
+            background-color: yellow;
+        }
+
+        .div2{
+            background-color: green;
+        }
+
+        .div2{
+            background-color: blue;
+        }
+
+        .div3{
+            background-color: red;
         }
