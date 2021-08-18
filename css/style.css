@@ -1,6 +1,6 @@
 /* Creating background color */
         body{
-            background-color: rgb(184, 196, 160);
+            background-color: wheat;
         }
         
         /* Creating library to customize native commands in HTML  */    
@@ -27,5 +27,5 @@
             font-size: 18px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-weight: bolder;
-            color: blue;
+            color: rgb(8, 8, 58);
         }
