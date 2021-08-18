@@ -1,0 +1,31 @@
+/* Creating background color */
+        body{
+            background-color: rgb(184, 196, 160);
+        }
+        
+        /* Creating library to customize native commands in HTML  */    
+        
+        h1{
+            font-size: 26px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: blueviolet;
+        }
+
+        p{
+            font-size: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        /* Creating CCS library to class */
+        .paragrafo_especial{
+            font-size: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: gray;
+        }
+
+        .menu{
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            color: blue;
+        }
